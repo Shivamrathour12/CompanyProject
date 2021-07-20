@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <h1 class="navbar_logo">SAMSUNG</h1>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar_menu">
+                <li class="navbar_item"><a href="" class="menu_links">Home</a></li>
+                <li class="navbar_item"><a href="" class="menu_links">Services</a></li>
+                <li class="navbar_item"><a href="" class="menu_links">About Us</a></li>
+                <li class="navbar_item"><a href="" class="menu_links">Contact US</a></li>
+                <li class="navbar_item"><a href="" class="menu_links btn">Sign Up</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="main">
+        <div class="main_container">
+            <div class="content">
+                <h1>skyrocket your results</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores commodi quibusdam veniam eaque
+                     porro quia dolorem architecto consectetur, consequuntur ab ipsam enim perferendis corrupti ipsum!.</p>
+                <button class="main-btn"><a href="" class="link">Get Started</a></button>
+            </div>
+            <div class="img-container">
+                <img src="images/pic1.svg" alt="" class="img-content">
+            </div>
+        </div>
+    </div>
+
+    <div class="model" id="email-model">
+        <div class="model_content">
+            <span class="close-Btn">&times;</span>
+            <div class="model-content-left">
+                <img src="images/pic2.svg" alt="" id="model-img">
+            </div>
+            <div class="model-content-right">
+                <form action="/" method="GET" class="model-form" id="form">
+                    <h1>Get Started with us today create your account by filling out the information below.</h1>
+                    <div class="form-validation">
+                        <input type="text" name="name" placeholder="Enter Your Name" id="name" class="model-input">
+                        <p>Error Message</p>
+                    </div>
+                    <div class="form-validation">
+                        <input type="email" name="email" placeholder="Enter Your Email" id="email" class="model-input">
+                        <p>Error Message</p>
+                    </div>
+                    <div class="form-validation">
+                        <input type="password" name="password" placeholder="Enter Your Password" id="password" class="model-input">
+                        <p>Error Message</p>
+                    </div>
+                    <div class="form-validation">
+                        <input type="password" name="password" placeholder="Confirm Password" id="password-confirm" class="model-input">
+                        <p>Error Message</p>
+                    </div>
+                    <div class="form-validation">
+                        <input type="submit" class="model-input-btn" value="Sign Up"><br>
+                        <span class="model-input-login">
+                            Already have an account ? Login 
+                            <a href="">Here</a></span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+    
+</body>
+</html>
